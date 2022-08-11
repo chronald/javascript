@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site teste</title>
+    <style>
+        body{
+            background-color: tomato;
+            color: black;
+            font: normal 15pt calibri;
+
+        }
+        h1 {color: black;}
+    </style>
+</head>
+<body>
+   <h1><strong>Olá, Tudo bem?</strong></h1>
+   <p><strong>Obrigado por participar.<br/>
+    Fiz algumas perguntas e o resultado foi esse:
+   </strong> </p>
+   
+
+   <SCRipt>
+    alert('Irei fazer algumas perguntas.')
+    var nome = prompt('Qual é o seu nome?')
+    var idade = Number(prompt('Qual sua idade?'))
+    var mental = prompt('Como está se sentindo?(Mal ou bem)')
+    document.write(`Seu nome é <strong>${nome}</strong><br/>`)
+    document.write(`Você tem <strong>${idade}</strong> anos<br/>`)
+    document.write(`Você está <strong>${mental}</strong><br/>` )
+    document.write('Caso esteja mal, espero que tudo fique bem.<br/>')
+    document.write('Caso esteja bem, continue assim :)')
+
+    </SCRipt>
+
+</body>
+</html>
